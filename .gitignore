@@ -1,0 +1,85 @@
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+build/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local datasets and generated artifacts
+datasets/
+data/raw/
+__pycache__/
+
+
+
+# Python environment
+venv/
+.venv/
+
+# Large model files
+exports/*.pt
+export/*.onnx
+
+# Generated frontend build
+frontend/build/
+
+# User uploads and generated reports
+app/static/uploads/*
+app/static/reports/*
+
+# Keep placeholder files, if present
+!app/static/uploads/.gitkeep
+!app/static/reports/.gitkeep
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Frontend dependencies
+node_modules/
+
+
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+node_modules/
+frontend/build/
+exports/*.pt
+export/*.onnx
+app/static/uploads/*
+app/static/reports/*
+*.log
+.pytest_cache/
